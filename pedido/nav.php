@@ -1,24 +1,21 @@
 <!-- navbar -->
-<div class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
+
+    
           
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="productos.php">Sistemas Web</a>
-        </div>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+               <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
           
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li <?php echo $page_title=="Products" ? "class='active'" : ""; ?> >
-                    <a href="productos.php">Productos</a>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 py-2">
+
+                <li class="nav-item" <?php echo $page_title=="Products" ? "class='active'" : ""; ?> >
+                    <a style="color: white;" class="nav-link " href="productos.php">Productos</a>
                 </li>
-                <li <?php echo $page_title=="Cart" ? "class='active'" : ""; ?> >
-                    <a href="carro.php">
+                <li class="nav-item"  <?php echo $page_title=="Cart" ? "class='active'" : ""; ?> >
+                    <a style="color: white;" class="nav-link " href="carro.php">
                         <?php
                         // query to count all product in cart
                         $query = "SELECT count(*) FROM cart_items WHERE user=1";
@@ -39,8 +36,16 @@
                     </a>
                 </li>
             </ul>
-        </div><!--/.nav-collapse -->
+        </div>
+        
+
+
+        </nav>
+
+
+
+        <!--/.nav-collapse -->
           
-    </div>
-</div>
+    
+
 <!-- /navbar -->
