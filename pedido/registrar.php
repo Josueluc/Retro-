@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- CSS PERSONALIZADO -->
-    <link type="text/css" rel="stylesheet" href="sesion/formulario.css">
+    <link type="text/css" rel="stylesheet" href="sesion/registro.css">
 
     <!-- ARCHIVOS DE BOOTSTRAP4 JavaScript -->
     <!-- 1jQuery , 2Popper.js, 3Bootstrap JS -->
@@ -57,9 +57,9 @@
         <div class="row justify-content-center mt-3 m-1">
             <div class="col-md-6 col-sm-8 col-xl-4 col-lg-5 formulario">
 
-                <form action="productos.php" method="POST">
+                <form action="login.php" method="POST">
 
-                    <div class="form-group text-center pt-1">
+                    <div class="form-group text-center ">
                         <h1 class="text-light">Registrase</h1>
                     </div>
                     <div class="form-group mx-sm-4 pt-1">
