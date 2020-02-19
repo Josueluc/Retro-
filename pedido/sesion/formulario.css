@@ -1,5 +1,5 @@
 body {
-  background-image: url(casa.jpg);
+  background-image: url(5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -19,10 +19,10 @@ body {
   transition: 0.5s ease-in;
   outline: none;
   box-shadow: none;
+  color: white;
 }
 
 .form-control:focus {
-  background: none;
   box-shadow: none;
   outline: none;
 }
