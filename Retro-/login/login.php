@@ -143,7 +143,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="col-12">
             <p>¿No tienes una cuenta?<a href="register.php">Regístrate ahora aqui</a>.</p>
            
-            </>
+        
             </div>
         </form>
         </div>
