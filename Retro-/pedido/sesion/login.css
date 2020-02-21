@@ -1,5 +1,5 @@
 body {
-  background-image: url(3.jpg);
+  background-image: url(5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -7,7 +7,7 @@ body {
 
 .formulario {
   background: rgb(0, 0, 0, 0.1);
-  padding: 5px;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 30px rgb(0, 0, 0, 0.568);
   color: white;
@@ -19,7 +19,7 @@ body {
   transition: 0.5s ease-in;
   outline: none;
   box-shadow: none;
-  color: white; /* color: white;  color despues de escribir */
+  color: white;
 }
 
 .form-control:focus {
