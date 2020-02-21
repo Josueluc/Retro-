@@ -57,29 +57,29 @@
         <div class="row justify-content-center mt-3 m-1">
             <div class="col-md-6 col-sm-8 col-xl-4 col-lg-5 formulario">
 
-                <form action="login.php" method="POST">
+                <form action="" method="POST">
 
                     <div class="form-group text-center ">
                         <h1 class="text-light">Registrase</h1>
                     </div>
                     <div class="form-group mx-sm-4 pt-1">
 
-                        <input type="text" name="email" class="form-control " placeholder="Cedula">
+                        <input type="text" name="cedula" class="form-control " placeholder="Cedula">
                     </div>
 
                     <div class="form-group mx-sm-4 pt-1">
 
-                        <input type="text" name="email" class="form-control " placeholder="Nombres">
+                        <input type="text" name="nombre" class="form-control " placeholder="Nombres">
                     </div>
 
                     <div class="form-group mx-sm-4 pt-1">
 
-                        <input type="text" name="email" class="form-control " placeholder="Apellidos">
+                        <input type="text" name="apellido" class="form-control " placeholder="Apellidos">
                     </div>
 
                     <div class="form-group mx-sm-4 pt-1">
 
-                        <input type="text" name="email" class="form-control " placeholder="Teléfono">
+                        <input type="text" name="telefono" class="form-control " placeholder="Teléfono">
                     </div>
 
                     <div class="form-group mx-sm-4 pt-1">
@@ -89,7 +89,7 @@
 
                     <div class="form-group mx-sm-4 pt-1">
 
-                        <input type="text" name="email" class="form-control " placeholder="Edad">
+                        <input type="text" name="edad" class="form-control " placeholder="Edad">
                     </div>
                     
                     <div class="form-group mx-sm-4 pt-1">
@@ -99,7 +99,8 @@
                     <div class="form-group mx-sm-4 pt-1">
                         <input type="submit" class="btn btn-block ingresar" value="Crear Cuenta">
                     </div>
-                    
+                   <?php include 'sesion/validar.php';
+                   ?>
                 </form>
             </div>
         </div>
